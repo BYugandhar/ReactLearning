@@ -11,6 +11,7 @@
 </div>
 
 */
+//Here "heading" is an object that returned by create element
 const heading = React.createElement(
     "div",
     {id:"parent"},[
@@ -27,5 +28,5 @@ const heading = React.createElement(
 );
 
 const root = ReactDOM.createRoot(document.getElementById("check"));
-
+//Here "heading " will be converted into HTML and displayed in browser
 root.render(heading);
