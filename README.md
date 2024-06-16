@@ -17,6 +17,6 @@ to only required to production code me retained and bunddled)
 10)moudles (just goto terminal "npm install " this cmd will geneate all req moudles again)
 11)We can get React into our code one way using CDN links , but its not good way , another way we can use "npm" ( cmd is "npm install react") for react-dom(cmd "npm install react-dom") 
 11)"npx parcel index.html" This command "npx" means excecute "parcel" is bunddler means prepare the final excutable "index.html" is source this index.html will have which js file to 
-redirect  ,this parcel is one best bundler ,Parcel has follwing features
+redirect,this parcel is one best bundler ,Parcel has follwing features
         ->
 
