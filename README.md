@@ -17,5 +17,26 @@ to only required to production code me retained and bunddled)
 10)We can get React into our code one way using CDN links , but its not good way , another way we can use "npm" ( cmd is "npm install react") for react-dom(cmd "npm install react-dom") 
 11)"npx parcel index.html" This command "npx" means excecute "parcel" is bunddler means prepare the final excutable "index.html" is source this index.html will have which js file to 
 redirect,this parcel is one best bundler ,Parcel has follwing features
-        ->
-
+        ->it will do Dev Build
+        ->it will create local server and host dev build (npx parcel file.html)
+        ->it will do HMR-Hot moudle Refresh - means when you have done any changes in source file immediatly it will reflect in browser
+        ->File watching alg - this alg for check did any files are modifed take file build and refresh its done by c++
+        ->caching -> faster the build
+        ->image optimazation
+        ->bundlling
+        ->compress fie
+        ->consistent hasing
+        ->code spilting- it will split files
+        ->Differentail bundling -  app can be opened chrome,IE ,Firefox means Parcel can create code for different type older browser or diff apps
+        -> it will do Diagnostics
+        ->Error handling
+        ->it will support HTTPS also ->(cmd : npx parcel index.html --https)
+        ->Tree shaking - this will help to remove unused code (example if you have written 10 function but u are using 2 function reaming 8 function will remove and bundle)
+        -> create for Dev build and Prod buid(cmd : npx parcel build index.html but this will give error bcoz in package.json has "main:App.js" this will tell starting point we need to remove in case of prod build) all files will go under "dist" folder
+12) Browserlist this will tell which version of browsers should support , this can be added into package.json
+    "broswerlist:"
+    {
+    last 2 vesrion chrome
+    }
+        above cmd will tel support latest 2 version of chrome  and remaing IE ,firefoxx also will support but no version restict
+        
