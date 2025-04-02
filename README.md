@@ -62,6 +62,7 @@ But for creating one tag if we want follow above syntax, its very diffcult ryt. 
 2) JSX and React are not same , they both are different
 3)JSX and HTML are not same but JSX syntax looks like same HTML or XML
 4)JSX is different synatx but looks like HTML/XML
+5)
 
 
 
